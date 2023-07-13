@@ -1,0 +1,387 @@
+# Lege Material und Preis fest um dieses Item im Shop zu verkaufen (fehlt Material oder Preis oder beides, wird stattdessen eine Barriere platziert!)
+# Lege fest ob das Item grade Rabatt bekommt (RabattAktiv), wieviel Rabatt das Item bekommen soll (RabattProzent), wie lange der Rabatt anhalten soll (discountTime) und nach wievielen
+# Stunden/Minuten sich der Rabatt selbstständig wieder einschalten soll (Timer).
+
+# Set the material and price to sell this item in the shop (if material or price is missing, a barrier will be placed instead).
+# Specify whether the item is currently receiving a discount (RabattAktiv), the percentage of discount the item should receive (RabattProzent), the duration for which the discount should 
+# last (discountTime), and after how many hours/minutes the discount should automatically turn back on (Timer).
+
+
+'0':
+  Material: STONE
+  Preis: 100
+  RabattAktiv: false
+  RabattProzent: 10
+  discountTime: 00:02
+  Timer: 00:02
+'1':
+  Material: DIORITE
+  Preis: 100
+  RabattAktiv: false
+  RabattProzent: 10
+  discountTime: 00:05
+  Timer: '15:00'
+'2':
+  Material: MANGROVE_PLANKS
+  Preis: 5
+  RabattAktiv: false
+  RabattProzent: 10
+  discountTime: '15:00'
+  Timer: '15:30'
+'3':
+  Material: IRON_INGOT
+  Preis: 13
+  RabattAktiv: false
+  RabattProzent: 20
+  discountTime: '18:30'
+  Timer: '15:30'
+'4':
+  Material: STONE
+  Preis: 2
+  RabattAktiv: false
+  RabattProzent: 0
+  discountTime: 02:05
+  Timer: '15:30'
+'5':
+  Material: OAK_WOOD
+  Preis: 1
+  RabattAktiv: false
+  RabattProzent: 5
+  discountTime: '12:00'
+  Timer: '15:30'
+'6':
+  Material: DIAMOND
+  Preis: 100
+  RabattAktiv: false
+  RabattProzent: 10
+  discountTime: 00:05
+  Timer: '15:30'
+'7':
+  Material: REDSTONE
+  Preis: 3
+  RabattAktiv: false
+  RabattProzent: 0
+  discountTime: 02:03
+  Timer: '15:30'
+'8':
+  Material: LAPIS_LAZULI
+  Preis: 2
+  RabattAktiv: false
+  RabattProzent: 20
+  discountTime: '14:30'
+  Timer: '15:30'
+'9':
+  Material: EMERALD
+  Preis: 8
+  RabattAktiv: false
+  RabattProzent: 10
+  discountTime: '16:45'
+  Timer: '15:30'
+'10':
+  Material: OAK_PLANKS
+  Preis: 6
+  RabattAktiv: false
+  RabattProzent: 0
+  discountTime: 09:12
+  Timer: '15:30'
+'11':
+  Material: DIAMOND_SWORD
+  Preis: 12
+  RabattAktiv: false
+  RabattProzent: 15
+  discountTime: '20:00'
+  Timer: '15:30'
+'12':
+  Material: IRON_HELMET
+  Preis: 5
+  RabattAktiv: false
+  RabattProzent: 25
+  discountTime: '17:15'
+  Timer: '15:30'
+'13':
+  Material: BOW
+  Preis: 3
+  RabattAktiv: false
+  RabattProzent: 0
+  discountTime: '13:03'
+  Timer: '15:30'
+'14':
+  Material: ARROW
+  Preis: 1
+  RabattAktiv: false
+  RabattProzent: 10
+  discountTime: '13:00'
+  Timer: '15:30'
+'15':
+  Material: LEATHER_CHESTPLATE
+  Preis: 4
+  RabattAktiv: false
+  RabattProzent: 20
+  discountTime: '19:30'
+  Timer: '15:30'
+'16':
+  Material: WOODEN_SWORD
+  Preis: 2
+  RabattAktiv: false
+  RabattProzent: 0
+  discountTime: '12:25'
+  Timer: '15:30'
+'17':
+  Material: STONE_AXE
+  Preis: 3
+  RabattAktiv: false
+  RabattProzent: 15
+  discountTime: '11:45'
+  Timer: '15:30'
+'18':
+  Material: GOLDEN_PICKAXE
+  Preis: 6
+  RabattAktiv: false
+  RabattProzent: 10
+  discountTime: '14:15'
+  Timer: '15:30'
+'19':
+  Material: IRON_SHOVEL
+  Preis: 2
+  RabattAktiv: false
+  RabattProzent: 0
+  discountTime: '12:30'
+  Timer: '15:30'
+'20':
+  Material: DIAMOND_HOE
+  Preis: 8
+  RabattAktiv: false
+  RabattProzent: 20
+  discountTime: '16:30'
+  Timer: '15:30'
+'21':
+  Material: REDSTONE_TORCH
+  Preis: 1
+  RabattAktiv: false
+  RabattProzent: 5
+  discountTime: '10:30'
+  Timer: '15:30'
+'22':
+  Material: GLOWSTONE
+  Preis: 4
+  RabattAktiv: false
+  RabattProzent: 0
+  discountTime: '10:30'
+  Timer: '15:30'
+'23':
+  Material: TNT
+  Preis: 6
+  RabattAktiv: false
+  RabattProzent: 15
+  discountTime: '12:45'
+  Timer: '15:30'
+'24':
+  Material: OBSIDIAN
+  Preis: 12
+  RabattAktiv: false
+  RabattProzent: 10
+  discountTime: '18:15'
+  Timer: '15:30'
+'25':
+  Material: ENDER_PEARL
+  Preis: 3
+  RabattAktiv: false
+  RabattProzent: 0
+  discountTime: 02:09
+  Timer: '15:30'
+'26':
+  Material: WATER_BUCKET
+  Preis: 2
+  RabattAktiv: false
+  RabattProzent: 20
+  discountTime: '15:30'
+  Timer: '15:30'
+'27':
+  Material: LAVA_BUCKET
+  Preis: 8
+  RabattAktiv: false
+  RabattProzent: 25
+  discountTime: '20:30'
+  Timer: '15:30'
+'28':
+  Material: GLASS_BOTTLE
+  Preis: 1
+  RabattAktiv: false
+  RabattProzent: 0
+  discountTime: 04:50
+  Timer: '15:30'
+'29':
+  Material: POTION
+  Preis: 5
+  RabattAktiv: false
+  RabattProzent: 15
+  discountTime: '16:00'
+  Timer: '15:30'
+'30':
+  Material: ENCHANTED_BOOK
+  Preis: 10
+  RabattAktiv: false
+  RabattProzent: 10
+  discountTime: '13:30'
+  Timer: '15:30'
+'31':
+  Material: APPLE
+  Preis: 4
+  RabattAktiv: false
+  RabattProzent: 0
+  discountTime: 00:05
+  Timer: '15:30'
+'32':
+  Material: APPLE
+  Preis: 6
+  RabattAktiv: false
+  RabattProzent: 20
+  discountTime: '19:00'
+  Timer: '15:30'
+'33':
+  Material: FEATHER
+  Preis: 2
+  RabattAktiv: false
+  RabattProzent: 5
+  discountTime: '11:00'
+  Timer: '15:30'
+'34':
+  Material: INK_SAC
+  Preis: 1
+  RabattAktiv: false
+  RabattProzent: 0
+  discountTime: 03:04
+  Timer: '15:30'
+'35':
+  Material: RED_BED
+  Preis: 8
+  RabattAktiv: false
+  RabattProzent: 15
+  discountTime: '14:45'
+  Timer: '15:30'
+'36':
+  Material: APPLE
+  Preis: 5
+  RabattAktiv: false
+  RabattProzent: 25
+  discountTime: '17:45'
+  Timer: '15:30'
+'37':
+  Material: CAKE
+  Preis: 3
+  RabattAktiv: false
+  RabattProzent: 0
+  discountTime: '17:45'
+  Timer: '15:30'
+'38':
+  Material: COOKIE
+  Preis: 2
+  RabattAktiv: false
+  RabattProzent: 10
+  discountTime: '12:30'
+  Timer: '15:30'
+'39':
+  Material: MELON
+  Preis: 1
+  RabattAktiv: false
+  RabattProzent: 20
+  discountTime: '16:15'
+  Timer: '15:30'
+'40':
+  Material: PUMPKIN_SEEDS
+  Preis: 4
+  RabattAktiv: false
+  RabattProzent: 0
+  discountTime: '12:30'
+  Timer: '15:30'
+'41':
+  Material: SUGAR_CANE
+  Preis: 2
+  RabattAktiv: false
+  RabattProzent: 15
+  discountTime: '10:45'
+  Timer: '15:30'
+'42':
+  Material: CARROT
+  Preis: 3
+  RabattAktiv: false
+  RabattProzent: 10
+  discountTime: '13:15'
+  Timer: '15:30'
+'43':
+  Material: POTATO
+  Preis: 1
+  RabattAktiv: false
+  RabattProzent: 0
+  discountTime: '13:50'
+  Timer: '15:30'
+'44':
+  Material: WHEAT
+  Preis: 5
+  RabattAktiv: false
+  RabattProzent: 20
+  discountTime: '15:45'
+  Timer: '15:30'
+'45':
+  Material: COCOA_BEANS
+  Preis: 3
+  RabattAktiv: false
+  RabattProzent: 5
+  discountTime: 09:45
+  Timer: '15:30'
+'46':
+  Material: BEETROOT
+  Preis: 2
+  RabattAktiv: false
+  RabattProzent: 0
+  discountTime: '10:10'
+  Timer: '15:30'
+'47':
+  Material: BLAZE_POWDER
+  Preis: 8
+  RabattAktiv: false
+  RabattProzent: 15
+  discountTime: '18:45'
+  Timer: '15:30'
+'48':
+  Material: GHAST_TEAR
+  Preis: 6
+  RabattAktiv: false
+  RabattProzent: 10
+  discountTime: '20:15'
+  Timer: '15:30'
+'49':
+  Material: MAGMA_CREAM
+  Preis: 3
+  RabattAktiv: false
+  RabattProzent: 0
+  discountTime: 01:10
+  Timer: '15:30'
+'50':
+  Material: ENDER_EYE
+  Preis: 4
+  RabattAktiv: false
+  RabattProzent: 20
+  discountTime: '14:00'
+  Timer: '15:30'
+'51':
+  Material: MUSIC_DISC_13
+  Preis: 5
+  RabattAktiv: false
+  RabattProzent: 25
+  discountTime: '17:00'
+  Timer: '15:30'
+'52':
+  Material: MUSIC_DISC_CAT
+  Preis: 2
+  RabattAktiv: false
+  RabattProzent: 0
+  discountTime: '12:30'
+  Timer: '15:30'
+'53':
+  Material: MUSIC_DISC_BLOCKS
+  Preis: 3
+  RabattAktiv: false
+  RabattProzent: 15
+  discountTime: '11:30'
+  Timer: '15:30'

@@ -1,0 +1,21 @@
+name: GUIReward
+version: '3.1.1'
+main: me.xxgrowguruxx.GUIReward
+api-version: 1.19
+commands:
+  reward:
+  addFame:
+  removeFame:
+  famebalance:
+  transfer:
+  adminreward:
+permissions:
+  reward.cooldown:
+    description: Überspringt den Cooldown von GUIReward
+    default: op
+  reward.fame:
+    description: Erlaubt einem Spieler Fame zu geben/nehmen
+    default: op
+  reward.shop:
+    description: Erlaubt die nutzung von /adminreward
+    default: op

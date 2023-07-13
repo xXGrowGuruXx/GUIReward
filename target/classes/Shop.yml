@@ -1,0 +1,24 @@
+items:
+  10:
+    material: diamond
+    amount: 1
+    display-name: "§6Diamant"
+    lore:
+      - "Ein kostbarer Diamant."
+    enchantments:
+      PROTECTION_ENVIRONMENTAL: 1
+    flags:
+      HIDE_ENCHANTS: true
+  20:
+    material: iron_ingot
+    amount: 10
+    display-name: "§7Eisenerz"
+    lore:
+      - "Zehn Einheiten Eisenerz."
+    enchantments:
+      DIG_SPEED: 1
+    flags:
+      HIDE_ATTRIBUTES: true
+prices:
+  10: 100.0
+  20: 10.0

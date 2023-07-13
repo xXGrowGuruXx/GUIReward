@@ -1,0 +1,9 @@
+#Legt die Menge fest die man als tägliche Belohnung bekommt.
+#Sets the quantity for the daily reward.
+Fame: 500
+#Legt die Sprache fest, verfügbar sind de_DE, en_EN.
+#Sets the language, available options are de_DE, en_EN.
+language: de_DE
+#Legt den maximalen Wert fest der bei der verlosung stattfindet. Zufallsanzahl von 1 bis ?.
+#Sets the maximum value for the lottery. Random quantity from 1 to ?.
+maxQuantity: 64
